@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@font-face {
+    font-family: 'MiFuentePersonalizada';
+    src: url(./img/NeueMontreal-Regular.otf) format('opentype');
+}
+
+
+body{
+    color: white;
+    margin:0;
+    padding: 30px; 
+    font-family: "Neue Montreal", sans-serif;
+    font-size: 10px;  
+    }
+
+.string {
+    color: black;
+    font-family: "Neue Montreal", sans-serif;
+    font-size: 12px;
+    font-weight:bold;
+    margin-right: 10px;
+}
+
+td{
+    padding-left: 20px; 
+    padding-right: 20px;  
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-left: 1px solid #000000;
+}
+
+td:last-child {
+    border-right: none; /* Elimina el borde derecho del último td */
+}
+
+td:first-child {
+    border-left: none; /* Elimina el borde izquierdo del primer td */
+}
+
+table{
+    
+    background-color: white;
+    color: black;
+    padding: 10px;
+    width: 70%;
+    font-family: "Neue Montreal", sans-serif;
+}
+.table-cell {
+    display: flex;
+    align-items: flex-start;
+}
+
+p{
+    font-size: 12px;
+    text-align: center;
+    color: #000000;
+    font-family: "Neue Montreal", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-weight:bold;
+    width: 10px;
+}
+
+.img{
+    width: 110px;
+    height: auto;
+    vertical-align: middle;
+    vertical-align: top;
+}
+
+.Text{
+    margin-right: 12px;
+    writing-mode:vertical-rl;
+    transform: rotate (180deb);
+    font-family: "Neue Montreal", sans-serif;
+    font-weight: bold;
+    vertical-align: top;
+    }
+
+.sub_text{
+    font-family: "Neue Montreal", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    vertical-align: top;
+}
